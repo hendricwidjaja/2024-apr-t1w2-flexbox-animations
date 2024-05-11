@@ -1,6 +1,7 @@
 /* This is creating a "color palette" so that if you need to change colors in various places, it'll change all the places they are located */
 * {
     --blue-light: #AEC5EB;
+    --orange: #FF715B;
     color: black;
 }
 
@@ -13,4 +14,42 @@ body {
     text-align: center;
     /* align items is vertical */
     align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    /* Text align is horizontal */
+    text-align: center;
+    /* align items is vertical */
+    align-items: center;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    background-color: var(--orange);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: solid black 5px;
+    border-radius: 50%;
+}
+
+.logo p {
+    background-color: black;
+    color: var(--orange);
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 20%;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: black;
+    color: var(--blue-light);
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
