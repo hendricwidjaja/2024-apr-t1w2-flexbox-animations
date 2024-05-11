@@ -8,3 +8,10 @@
     - Flexbox
     - Animations
     - Pseudoclasses
+
+## Wireframes
+
+![Wireframe of index page Desktop version](./images/index_des)
+
+## Project Management (Trello)
+![Trello board 11-05-2024](./images/trello....png)
