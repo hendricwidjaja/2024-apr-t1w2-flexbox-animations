@@ -1,0 +1,16 @@
+/* This is creating a "color palette" so that if you need to change colors in various places, it'll change all the places they are located */
+* {
+    --blue-light: #AEC5EB;
+    color: black;
+}
+
+body {
+    background-color: var(--blue-light);
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* Text align is horizontal */
+    text-align: center;
+    /* align items is vertical */
+    align-items: center;
+}
